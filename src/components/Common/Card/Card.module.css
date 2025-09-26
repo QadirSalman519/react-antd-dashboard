@@ -1,0 +1,18 @@
+.main-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 16px;
+    color: #888;
+}
+
+.card-text {
+    margin: 0px;
+}
+
+.card-icon {
+    font-size: 42px;
+}

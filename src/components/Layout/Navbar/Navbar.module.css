@@ -1,0 +1,38 @@
+.sidebar {
+    background-color: #2b2c13;
+}
+
+.logo {
+    padding: 20px;
+    text-align: center;
+}
+
+.fav-img {
+    width: 40px;
+    height: auto;
+}
+
+.logo-img {
+    width: 120px;
+    height: auto;
+}
+
+.menu{
+    background-color: transparent;
+}
+
+.sidebar .menu .menu-li{
+    color: #fff;
+}
+.sidebar .menu .menu-li:hover{
+    color: #878a3d;
+}
+
+.sidebar .menu svg{
+    fill: #fff;
+}
+
+/* .sidebar .menu .ant-menu-item-selected{
+    background-color: red !important;
+} */
+

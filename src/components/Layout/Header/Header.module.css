@@ -1,0 +1,21 @@
+.header {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2b2c13;
+}
+
+.header-menu {
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header-dropdown-a {
+    color: #fff;
+}
+
+.header-dropdown-a:hover {
+    color: #b6b957;
+}

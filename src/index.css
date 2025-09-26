@@ -1,0 +1,68 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+li.ant-menu-item.ant-menu-item-selected {
+  background: #72726481 !important;
+}
+
+.ant-layout-sider-trigger {
+  display: none;
+}
+
+.ant-card-head {
+  text-align: center;
+}
+
+.primary-btn {
+  border-color: none;
+  background: #ffff;
+  color: #7f8033;
+  font-weight: bolder;
+}
+
+.primary-btn:hover {
+  border-color: #ffff !important;
+  background: transparent !important;
+  color: #ffff !important;
+}
+
+.ant-switch.ant-switch-checked .ant-switch-inner {
+  background-color: #7f8033;
+}
+
+.ant-switch.ant-switch-checked .ant-switch-inner .ant-switch-inner-checked, .ant-switch .ant-switch-inner .ant-switch-inner-unchecked {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ant-switch .ant-switch-inner {
+  background-color: rgb(250, 42, 42);
+}
+
+.ant-pagination .ant-pagination-item-active a {
+  color: #ffffff !important;
+}
+
+.ant-pagination .ant-pagination-item-active {
+  font-weight: 600;
+  background-color: #7f8033;
+  border: none;
+}
+
+.ant-pagination .ant-pagination-item a {
+    color: #7f8033;
+    border: 1px solid #7f8033;
+    border-radius: 6px;
+    font-weight: 600;
+}

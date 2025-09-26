@@ -1,0 +1,42 @@
+.main-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: radial-gradient(at 50% -30%, #f0d800, #000) fixed; */
+    background: radial-gradient(at 90% -30%, #f0f0f0, #999999) fixed;
+}
+
+.main-form .card {
+    width: 350px;
+    background: radial-gradient(at 20% -80%, #9d8500, #06160c) fixed;
+    border: none;
+}
+
+.main-form .card .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-form .card .logo img {
+    width: 200px;
+}
+
+.main-form .card .text {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.main-form .card .text h4 {
+    line-height: 0px;
+}
+
+.main-form .card .link{
+    text-align: center;
+}
+.main-form .card .link-a{
+    color: #fff;
+    text-decoration: underline;
+}
