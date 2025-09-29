@@ -53,7 +53,7 @@ const Login = () => {
         </Form>
         <div className={style["link"]}>
           <Link to="/forget-password" className={style["link-a"]}>
-            Back to Forget Password
+            Forget Password?
           </Link>
         </div>
       </Card>
