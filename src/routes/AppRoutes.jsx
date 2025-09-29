@@ -7,6 +7,7 @@ import ResetPassword from "../pages/Auth/ResetPassword/ResetPassword";
 import Users from "../pages/Dashboard/Users/Users";
 import EditProfile from "../pages/Dashboard/EditProfile/EditProfile";
 import ChangePassword from "../pages/Dashboard/ChangePassword/ChangePassword";
+import NotFound from "../pages/Errors/404/404";
 
 function AppRoutes() {
   return (
@@ -25,6 +26,8 @@ function AppRoutes() {
           <Route path="edit-profile" element={<EditProfile />} />
           <Route path="change-password" element={<ChangePassword />} />
         </Route>
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
