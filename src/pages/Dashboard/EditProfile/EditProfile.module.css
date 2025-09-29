@@ -15,6 +15,7 @@
     background-color: #2b2c14;
     border: 1px solid #2b2c14 !important;
     padding: 20px;
+    width: 40%;
 }
 
 .main-form .card .save-btn:hover {
