@@ -6,6 +6,7 @@ import ForgetPassword from "../pages/Auth/ForgetPassword/ForgetPassword";
 import ResetPassword from "../pages/Auth/ResetPassword/ResetPassword";
 import Users from "../pages/Dashboard/Users/Users";
 import EditProfile from "../pages/Dashboard/EditProfile/EditProfile";
+import ChangePassword from "../pages/Dashboard/ChangePassword/ChangePassword";
 
 function AppRoutes() {
   return (
@@ -22,6 +23,7 @@ function AppRoutes() {
           <Route index element={<Dashboard />} />
           <Route path="users" element={<Users />} />
           <Route path="edit-profile" element={<EditProfile />} />
+          <Route path="change-password" element={<ChangePassword />} />
         </Route>
       </Routes>
     </BrowserRouter>
