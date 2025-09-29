@@ -90,7 +90,7 @@ const Users = () => {
   return (
     <div style={{ padding: 20 }}>
       <PageMeta title="Users Management" description="..." />
-      <h2>Userss Management</h2>
+      <h2>Users Management</h2>
 
       <Row gutter={16} style={{ marginBottom: 20 }}>
         <Col span={8}>

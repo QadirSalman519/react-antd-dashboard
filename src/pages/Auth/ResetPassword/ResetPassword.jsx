@@ -6,24 +6,37 @@ import { Link } from "react-router-dom";
 
 const formFields = [
   {
+    label: "Email",
     name: "email",
     placeholder: "Enter your email",
     rules: [{ required: true, message: "Please enter your email" }],
     type: "email",
     icon: <LockOutlined />,
+    showLabel: true,
   },
   {
+    label: "Password",
     name: "password",
-    placeholder: "Password",
+    placeholder: "Enter your Password",
     rules: [{ required: true, message: "Please enter your password" }],
     type: "password",
     icon: <LockOutlined />,
+    showLabel: true,
+  },
+  {
+    label: "Confirm Password",
+    name: "confirm-password",
+    placeholder: "Enter your Password",
+    rules: [{ required: true, message: "Please enter your password" }],
+    type: "password",
+    icon: <LockOutlined />,
+    showLabel: true,
   },
   {
     name: "reset-password-btn",
     type: "button",
     label: "Reset Password",
-    className: "primary-btn",
+    className: ["primary-btn", style["save-btn"]],
     htmlType: "submit",
     block: true,
   },
@@ -44,11 +57,13 @@ const ResetPassword = () => {
           <h4>Reset Password</h4>
           <p>Enter your password here!</p>
         </div>
-        <Form onFinish={onFinish}>
+        <Form className="login-form" layout="vertical" onFinish={onFinish}>
           <DynamicForm fields={formFields} />
         </Form>
         <div className={style["link"]}>
-            <Link to="/forget-password" className={style["link-a"]}>Back to Forget Password</Link>
+          <Link to="/forget-password" className={style["link-a"]}>
+            Back to Forget Password
+          </Link>
         </div>
       </Card>
     </div>

@@ -27,7 +27,7 @@ const formFields = [
     name: "login-btn",
     type: "button",
     label: "Login",
-    className: "primary-btn",
+    className: ["primary-btn", style["save-btn"]],
     htmlType: "submit",
     block: true,
   },
