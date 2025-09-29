@@ -6,7 +6,7 @@ const DynamicForm = ({ fields }) => {
   return (
     <>
       {fields.map((field) => (
-        <Form.Item key={field.name} name={field.name} rules={field.rules}>
+        <Form.Item key={field.name} name={field.name} rules={field.rules} label={field.showLabel ? field.label : null} >
           {field.type === "password" && (
             <Input.Password
               prefix={field.icon ? field.icon : ""}
@@ -47,7 +47,7 @@ const DynamicForm = ({ fields }) => {
               type={field.buttonType || ""}
               htmlType={field.htmlType || "button"}
               block={field.block || false}
-              className={field.className ?field.className : ""}
+              className={field.className ? field.className : ""}
             >
               {field.label}
             </Button>

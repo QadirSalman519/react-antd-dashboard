@@ -33,10 +33,11 @@
     line-height: 0px;
 }
 
-.main-form .card .link{
+.main-form .card .link {
     text-align: center;
 }
-.main-form .card .link-a{
+
+.main-form .card .link-a {
     color: #fff;
     text-decoration: underline;
 }

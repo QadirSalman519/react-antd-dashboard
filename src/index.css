@@ -80,3 +80,11 @@ li.ant-menu-item.ant-menu-item-selected {
   color: #5c5b5b;
   font-weight: 500;
 }
+
+.ant-form-item-vertical .ant-form-item-label>label {
+    font-weight: 500;
+}
+
+.login-form .ant-form-item-vertical .ant-form-item-label>label {
+    color: #fff;
+}
