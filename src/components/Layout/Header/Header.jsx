@@ -9,6 +9,7 @@ import {
   EditOutlined,
 } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
+import { Link } from "react-router-dom";
 
 const { Header } = Layout;
 
@@ -24,17 +25,17 @@ const AppHeader = ({ collapsed, setCollapsed }) => {
     },
     {
       key: "2",
-      label: "Edit Profile",
+      label: <Link to="/dashboard/edit-profile">Edit Profile</Link>,
       icon: <SettingOutlined />,
     },
     {
       key: "3",
-      label: "Change Password",
+      label: <Link to="/dashboard/change-password">Change Password</Link>,
       icon: <EditOutlined />,
     },
     {
       key: "4",
-      label: "Logout",
+      label: <Link to="/login">Logout</Link>,
       icon: <LogoutOutlined />,
     },
   ];
@@ -53,7 +54,10 @@ const AppHeader = ({ collapsed, setCollapsed }) => {
         />
       )}
       <Dropdown menu={{ items }}>
-        <a className={style['header-dropdown-a']} onClick={(e) => e.preventDefault()}>
+        <a
+          className={style["header-dropdown-a"]}
+          onClick={(e) => e.preventDefault()}
+        >
           <Space>
             Welcome, Qadir Salman
             <DownOutlined />

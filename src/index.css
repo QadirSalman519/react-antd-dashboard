@@ -61,8 +61,22 @@ li.ant-menu-item.ant-menu-item-selected {
 }
 
 .ant-pagination .ant-pagination-item a {
-    color: #7f8033;
-    border: 1px solid #7f8033;
-    border-radius: 6px;
-    font-weight: 600;
+  color: #7f8033;
+  border: 1px solid #7f8033;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.ant-input-outlined, .ant-input-outlined:hover {
+  border-color: #d0d0d0 !important;
+}
+
+.ant-input-outlined:hover {
+  border-color: #7f8033 !important;
+}
+
+:where(.css-dev-only-do-not-override-xepvsj)[class^="ant-input"], :where(.css-dev-only-do-not-override-xepvsj)[class*=" ant-input"] {
+  padding: 9px;
+  color: #5c5b5b;
+  font-weight: 500;
 }
